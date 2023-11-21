@@ -1,0 +1,89 @@
+
+header {
+    border: solid black;
+    border-width: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 16vh;
+    background-color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+
+#container {
+    display: flex;
+    height: 140vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid black;
+    border-width: 2px;
+
+
+}
+
+
+#exchanges {
+
+    flex: 25;
+    width: 25%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+#main {
+    flex: 50;
+    width: 75%;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+#userinfo {
+    flex: 25;
+    width: 25%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#section {
+    padding: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#left1box {
+
+    border: solid black;
+    border-radius: 25px;
+    width: 50%;
+    height: 10%;
+    margin-left: 23%;
+
+}
+
+#right2box {
+    border-radius: 25px;
+    margin-right: 23%;
+    border: solid black;
+    width: 90%;
+    height: 20%;
+    padding-left: 8%;
+}
+
+#footer-box {
+    border-radius: 15px;
+    width: 20%;
+    height: 50%;
+    margin: auto;
+
+    text-align: center;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
